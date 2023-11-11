@@ -1,19 +1,18 @@
-# TCC
+# Breast Cancer Detection AI System
 
-### Dataset utilizado pode ser encontrado em
+De acordo com a explicação no artigo, o seguinte código apresenta os processos do sistema de detecção de câncer de mama. 
 
-https://drive.google.com/file/d/16BC0QRwaJFp6-yOu6lAR98wzvmlwGKxs/view?usp=sharing# TCC
+Usando técnicas de pré-processamento, uso de Transfer Learning, além de uma arquitetura de Rede Neural Residual (ResNet50), o modelo de previsão detecta câncer de mama com uma acurácia de 73,29% durante a validação, e 52% durante os testes.
 
-## Modelo de classificação de imagens
+O modelo utilizado pode ser encontrado no arquivo TCC2_MODELS.ipynb, um Notebook Jupiter que integra códigos, explicações e imagens, juntamente com processos como importação das imagens, pré-processamento, aplicação do método de Transfer Learning, declaração do modelo e treinamento, além de métricas e previsões.
 
-O modelo de previsão pode ser encontrado no arquivo Modelo_final_Resnet50 deste repositório. Nele encontra-se partes de código que, no geral, importa as imagens, faz o pré-processamento, aplica o método de Transfer Learning, declara o modelo e faz o treinamento, além de métricas e previsões.
-
-Além disso, existem alguns comentários explicando a teoria do código, ou até mesmo das próprias tecnologias usadas.
 
 
 ## Base de dados
 
-A base de dados foi montada a partir do site [Visual Lab DMR](http://visual.ic.uff.br/dmi/). As imagens foram baixadas, e separadas em 4 grupos:
+Em função da base de imagens ser muito grande, os diretórios se encontram no [Google Drive](https://drive.google.com/drive/folders/1dLuh5ZCn1lfqwx5gEmfldaShSq9TtLnf?usp=drive_link).
+
+A base foi dividida em 6 grupos:
 
 * Imagens para **treinamento** de pacientes **SEM** câncer
 
@@ -23,4 +22,6 @@ A base de dados foi montada a partir do site [Visual Lab DMR](http://visual.ic.u
 
 * Imagens para **validação** de pacientes **COM** câncer
 
-O *dataset* pode ser encontrado, já classificado, [neste drive](https://drive.google.com/file/d/16BC0QRwaJFp6-yOu6lAR98wzvmlwGKxs/view?usp=sharing)
+* Imagens para **teste** de pacientes **SEM** câncer
+
+* Imagens para **teste** de pacientes **COM** câncer
