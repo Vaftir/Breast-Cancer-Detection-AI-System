@@ -1,3 +1,7 @@
+# o modelo main tem 40% trein, 35% valid, 25% test
+# o google drive tem 2 bases 
+## a de 25porcento é a que eu uso no modelo main. a 9_4porcento é a que usava antes - só que com q quantidade certa no test (9,4%)
+
 # Breast Cancer Detection AI System
 
 De acordo com a explicação no artigo, o seguinte código apresenta os processos do sistema de detecção de câncer de mama. 
@@ -25,3 +29,51 @@ A base foi dividida em 6 grupos:
 * Imagens para **teste** de pacientes **SEM** câncer
 
 * Imagens para **teste** de pacientes **COM** câncer
+
+
+## Executando o código
+
+Para executar o código localmente, é necessário possuir a versão 3.10 do Python e configurar o sistema para reconhecê-la corretamente.
+
+Além disso, é necessário instalar os seguintes pacotes, utilizando o comando `pip install (pacotes)`:
+
+- numpy 
+- matplotlib
+- opencv-python 
+- tensorflow 
+- pillow 
+- pandas 
+- scipy 
+- keras 
+- scikit-learn
+- seaborn
+
+
+Certifique-se de que todos os pacotes estão instalados antes de prosseguir.
+
+Com os pacotes instalados, descompacte o arquivo `DATASETS.zip` na raiz do programa. A estrutura de diretórios deve seguir este padrão:
+
+/
+|-- DATASETS/
+    |-- TESTING
+        |-- WITH CANCER
+            |-- ...
+        |-- WITHOUT CANCER
+            |-- ...
+    |-- TRAINING
+        |-- WITH CANCER
+            |-- ...
+        |-- WITHOUT CANCER
+            |-- ...
+    |-- VALIDATION
+        |-- WITH CANCER
+            |-- ...
+        |-- WITHOUT CANCER
+            |-- ...
+|-- logs/     
+|-- .gitignore
+|-- README.md
+|-- TCC2_MODELS.upynb
+
+
+Certifique-se de organizar os dados dessa maneira para garantir o correto funcionamento do código.
