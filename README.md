@@ -53,6 +53,16 @@ Certifique-se de que todos os pacotes estão instalados antes de prosseguir.
 
 Com os pacotes instalados, descompacte o arquivo `DATASETS.zip` na raiz do programa. A estrutura de diretórios deve seguir este padrão:
 
+
+
+- **DATASETS/**: Contém os conjuntos de dados divididos em treinamento, teste e validação, cada um com subdiretórios para amostras com câncer e sem câncer.
+- **logs/**: Possivelmente um diretório para armazenar logs relacionados ao seu projeto.
+- **.gitignore**: Um arquivo que especifica quais arquivos e diretórios devem ser ignorados pelo sistema de controle de versão Git.
+- **README.md**: Um arquivo markdown que geralmente contém informações sobre o projeto, instruções de uso e qualquer outra documentação relevante.
+- **TCC2_MODELS.upynb**: Um arquivo Jupyter Notebook para o seu trabalho de conclusão de curso (TCC) relacionado aos modelos.
+
+
+
 /
 |-- DATASETS/
     |-- TESTING
@@ -74,6 +84,8 @@ Com os pacotes instalados, descompacte o arquivo `DATASETS.zip` na raiz do progr
 |-- .gitignore
 |-- README.md
 |-- TCC2_MODELS.upynb
+
+
 
 
 Certifique-se de organizar os dados dessa maneira para garantir o correto funcionamento do código.
