@@ -86,29 +86,4 @@ Com os pacotes instalados, descompacte o arquivo `DATASETS.zip` na raiz do progr
 |-- TCC2_MODELS.upynb
 
 
-/
-|-- DATASETS/
-|-- TESTING/
-|-- WITH CANCER/
-|-- ...
-|-- WITHOUT CANCER/
-|-- ...
-|-- TRAINING/
-|-- WITH CANCER/
-|-- ...
-|-- WITHOUT CANCER/
-|-- ...
-|-- VALIDATION/
-|-- WITH CANCER/
-|-- ...
-|-- WITHOUT CANCER/
-|-- ...
-|-- logs/
-|-- .gitignore
-|-- README.md
-|-- TCC2_MODELS.upynb
-
-
-
-
 Certifique-se de organizar os dados dessa maneira para garantir o correto funcionamento do código.
