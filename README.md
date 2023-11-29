@@ -1,14 +1,10 @@
-# o modelo main tem 40% trein, 35% valid, 25% test
-# o google drive tem 2 bases 
-## a de 25porcento é a que eu uso no modelo main. a 9_4porcento é a que usava antes - só que com q quantidade certa no test (9,4%)
-
 # Breast Cancer Detection AI System
 
 De acordo com a explicação no artigo, o seguinte código apresenta os processos do sistema de detecção de câncer de mama. 
 
-Usando técnicas de pré-processamento, uso de Transfer Learning, além de uma arquitetura de Rede Neural Residual (ResNet50), o modelo de previsão detecta câncer de mama com uma acurácia de 73,29% durante a validação, e 52% durante os testes.
+Usando técnicas de pré-processamento, uso de Transfer Learning, além de uma arquitetura de Rede Neural Residual (ResNet50), o modelo de previsão detecta câncer de mama com uma acurácia de 57,53% durante os testes.
 
-O modelo utilizado pode ser encontrado no arquivo TCC2_MODELS.ipynb, um Notebook Jupiter que integra códigos, explicações e imagens, juntamente com processos como importação das imagens, pré-processamento, aplicação do método de Transfer Learning, declaração do modelo e treinamento, além de métricas e previsões.
+O modelo utilizado pode ser encontrado no arquivo tcc_modelo_unico.ipynb, um Notebook Jupiter que integra códigos, explicações e imagens, juntamente com processos como importação das imagens, pré-processamento, aplicação do método de Transfer Learning, declaração do modelo e treinamento, além de métricas e previsões.
 
 
 
@@ -51,39 +47,10 @@ Além disso, é necessário instalar os seguintes pacotes, utilizando o comando 
 
 Certifique-se de que todos os pacotes estão instalados antes de prosseguir.
 
-Com os pacotes instalados, descompacte o arquivo `DATASETS.zip` na raiz do programa. A estrutura de diretórios deve seguir este padrão:
-
-
+Com os pacotes instalados, descompacte o arquivo `DATASETS.zip` na raiz do programa.
 
 - **DATASETS/**: Contém os conjuntos de dados divididos em treinamento, teste e validação, cada um com subdiretórios para amostras com câncer e sem câncer.
-- **logs/**: Possivelmente um diretório para armazenar logs relacionados ao seu projeto.
+- **logs/**: Um diretório para armazenar logs relacionados ao projeto.
 - **.gitignore**: Um arquivo que especifica quais arquivos e diretórios devem ser ignorados pelo sistema de controle de versão Git.
 - **README.md**: Um arquivo markdown que geralmente contém informações sobre o projeto, instruções de uso e qualquer outra documentação relevante.
-- **TCC2_MODELS.upynb**: Um arquivo Jupyter Notebook para o seu trabalho de conclusão de curso (TCC) relacionado aos modelos.
-
-
-
-/
-|-- DATASETS/
-    |-- TESTING
-        |-- WITH CANCER
-            |-- ...
-        |-- WITHOUT CANCER
-            |-- ...
-    |-- TRAINING
-        |-- WITH CANCER
-            |-- ...
-        |-- WITHOUT CANCER
-            |-- ...
-    |-- VALIDATION
-        |-- WITH CANCER
-            |-- ...
-        |-- WITHOUT CANCER
-            |-- ...
-|-- logs/     
-|-- .gitignore
-|-- README.md
-|-- TCC2_MODELS.upynb
-
-
-Certifique-se de organizar os dados dessa maneira para garantir o correto funcionamento do código.
+- **tcc_modelo_unico.ipynb**: Um arquivo Jupyter Notebook com o modelo.
